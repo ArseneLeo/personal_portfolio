@@ -1,0 +1,146 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website - Arsene Leo</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="PersonalStyles.css">
+</head>
+<body>
+
+    <header id="main-header">
+        <div class="header-content">
+            <img src="https://via.placeholder.com/150" alt="Profile Picture of Arsene Leo" class="profile-img">
+            <div class="header-text">
+                <h1>Welcome to My Personal Website</h1>
+                <p class="subtitle">First Year Software Development Student</p>
+            </div>
+        </div>
+    </header>
+
+    <nav id="navbar">
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main id="content">
+
+       <section id="home" class="card">
+            <h2 class="section-title">Home</h2>
+            <p>Hello! My name is <strong>Arsene Leo</strong>. I am currently a first-year undergraduate student studying Software Development. Welcome to my portfolio website where I showcase what I have learned so far in my studies.</p>
+        </section>
+
+       <section id="about" class="card">
+            <h2 class="section-title">About Me</h2>
+            
+            <h3>Educational Background</h3>
+            <p>I completed high school in 2025 and enrolled in university to pursue my passion for technology.</p>
+            <ol class="styled-list">
+                <li><strong>High School:</strong> Kiambu High School (2021 - 2025)</li>
+                <li><strong>B.Sc. in Software Development:</strong> KCA University (2026 - Present)</li>
+            </ol>
+
+            <h3>Personal Interests</h3>
+            <ul class="styled-list">
+                <li>Learning frontend web development</li>
+                <li>Playing chess and video games</li>
+                <li>Reading technology blogs and sci-fi books</li>
+                <li>Building custom computers</li>
+            </ul>
+        </section>
+
+        <section id="skills" class="card">
+            <h2 class="section-title">Technical Skills</h2>
+            <p>Here are the technical skills I am currently developing during my coursework:</p>
+            
+            <div class="table-container">
+                <table class="skills-table">
+                    <thead>
+                        <tr>
+                            <th>Skill</th>
+                            <th>Level</th>
+                            <th>Experience</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HTML5</td>
+                            <td>Intermediate</td>
+                            <td>Coursework & Projects</td>
+                        </tr>
+                        <tr>
+                            <td>CSS3</td>
+                            <td>Beginner</td>
+                            <td>Coursework</td>
+                        </tr>
+                        <tr>
+                            <td>JavaScript</td>
+                            <td>Beginner</td>
+                            <td>Basic Scripts</td>
+                        </tr>
+                        <tr>
+                            <td>Git & GitHub</td>
+                            <td>Beginner</td>
+                            <td>Version Control Basics</td>
+                        </tr>
+                        <tr>
+                            <td>Python</td>
+                            <td>Intermediate</td>
+                            <td>Intro to Programming Course</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="projects" class="card">
+            <h2 class="section-title">Projects</h2>
+            <p>Check out my ongoing code repositories and demo projects on GitHub:</p>
+            <a href="https://github.com" target="_blank" class="btn btn-primary">View GitHub Profile</a>
+        </section>
+
+        <section id="contact" class="card">
+            <h2 class="section-title">Contact Me</h2>
+            <p>If you would like to get in touch, please send me an email directly at <a href="mailto:arsene2007leo@gmail.com" class="text-link">arsene2007leo@gmail.com</a> or fill out the form below:</p>
+
+            <form action="#" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" placeholder="Enter topic">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-submit">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer id="main-footer">
+        <p>&copy; 2026 Arsene Leo. Web Technologies Assignment 1.</p>
+    </footer>
+
+</body>
+</html>
